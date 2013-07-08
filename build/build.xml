@@ -25,7 +25,6 @@
        <filter token="flex.sdk.dir" value="${flex.sdk.dir}" />
        <filter token="source.main.dir" value="${source.main.dir}" />
        <filter token="libs.dir" value="${libs.dir}" />
-       <filter token="baselib.name" value="${baselib.name}" />
        <filter token="output.dir" value="${output.dir}" />
        <filter token="output.swc.file" value="${output.swc.filename}-${output.version}.swc" />
        <copy file="${basedir}/build/${output.swc.config.file}" tofile="${output.dir}/${output.swc.config.file}" filtering="true" />
